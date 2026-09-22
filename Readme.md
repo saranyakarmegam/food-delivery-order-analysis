@@ -59,6 +59,7 @@ A Python-based data analysis project exploring food delivery orders across resta
 
 ## Project Structure
 
+```text
 food-delivery-order-analysis/
 ├── food_orders.csv
 ├── orders_cleaned.csv
@@ -69,6 +70,7 @@ food-delivery-order-analysis/
     ├── ratings_by_category.png
     ├── revenue_by_restaurant.png
     └── delivery_time_distribution.png
+```
 
 ## How to Run
 
