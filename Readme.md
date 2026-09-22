@@ -26,15 +26,29 @@ A Python-based data analysis project exploring food delivery orders across resta
 
 ## Analysis & Visualizations
 
-* Restaurant revenue analysis
-* Food category rating analysis
-* City and category revenue analysis
-* Delivery-time analysis
-* Correlation analysis
-* Delivery-time distribution
-* Revenue comparison
-* Rating distribution
-* Correlation heatmap
+- Restaurant revenue analysis
+- Food category rating analysis
+- City and category revenue analysis
+- Delivery-time analysis
+- Correlation analysis
+
+### Visualizations
+
+#### Revenue by Restaurant
+
+![Revenue by Restaurant](screenshots/revenue_by_restaurant.png)
+
+#### Ratings by Food Category
+
+![Ratings by Food Category](screenshots/ratings_by_category.png)
+
+#### Delivery Time Distribution
+
+![Delivery Time Distribution](screenshots/delivery_time_distribution.png)
+
+#### Correlation Heatmap
+
+![Correlation Heatmap](screenshots/correlation_heatmap.png)
 
 ## Key Findings
 
@@ -45,13 +59,16 @@ A Python-based data analysis project exploring food delivery orders across resta
 
 ## Project Structure
 
-```text
 food-delivery-order-analysis/
 ├── food_orders.csv
 ├── orders_cleaned.csv
 ├── food_delivery_analysis.py
-└── README.md
-```
+├── README.md
+└── screenshots/
+    ├── correlation_heatmap.png
+    ├── ratings_by_category.png
+    ├── revenue_by_restaurant.png
+    └── delivery_time_distribution.png
 
 ## How to Run
 
